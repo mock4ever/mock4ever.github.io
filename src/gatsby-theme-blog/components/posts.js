@@ -7,7 +7,7 @@ import PostList from "./post-list"
 
 const Posts = ({ location, posts, siteTitle, socialLinks }) => (
   <Layout location={location} title={siteTitle}>
-    <SEO title="Home" />
+    <SEO title="Blog de programação e variedades" />
     <main>
       <PostList posts={posts} />
     </main>

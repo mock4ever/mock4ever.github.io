@@ -9,7 +9,7 @@ module.exports = {
   siteMetadata: {
     title: `Mock4Ever`,
     author: `Mockers`,
-    description: `Descrição a ser definida`,
+    description: `Tudo garoto de programa`,
     social: [
       {
         name: `mock4ever`,

@@ -3,6 +3,7 @@
 1.  **Start developing.**
 
     ```shell
+    git checkout blog
     yarn start
     ```
 

@@ -4,8 +4,8 @@
   "version": "0.0.1",
   "scripts": {
     "deploy": "yarn build && gatsby build && gh-pages -d public -b master",
-    "start": "gatsby develop",
-    "build": "gatsby build",
+    "start": " gatsby develop",
+    "build": "yarn clean && gatsby build",
     "clean": "gatsby clean"
   },
   "dependencies": {
