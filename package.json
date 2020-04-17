@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "scripts": {
-    "deploy": "gatsby build && gh-pages -d public -b master",
+    "deploy": "yarn build && gatsby build && gh-pages -d public -b master",
     "start": "gatsby develop",
     "build": "gatsby build",
     "clean": "gatsby clean"
