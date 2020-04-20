@@ -1,7 +1,7 @@
 {
   "name": "mock4ever-blog",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "deploy": "yarn build && gatsby build && gh-pages -d public -b master",
     "start": " gatsby develop",
